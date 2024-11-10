@@ -2,6 +2,9 @@
   "name": "chat-app",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+  "node": "21.3.0"
+},
   "main": "server.js",
   "scripts": {
     "server": "nodemon backend/server.js",
