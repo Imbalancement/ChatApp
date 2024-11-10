@@ -9,7 +9,9 @@
   "scripts": {
     "server": "nodemon backend/server.js",
     "start": "node backend/server.js",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "build": "npm run build --prefix frontend",
+    "heroku-postbuild": "npm run build --prefix frontend"
+
   },
   "type": "module",
   "keywords": [],
@@ -28,6 +30,6 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.3",
     "nodemon": "^3.1.4",
-    "vite": "^4.0.0"
+    "vite": "^5.4.1"
   }
 }
