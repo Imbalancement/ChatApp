@@ -2,6 +2,9 @@
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
+  "engines": {
+    "node": "21.3.0"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -23,7 +26,7 @@
     "@eslint/js": "^9.9.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
     "autoprefixer": "^10.4.20",
     "daisyui": "^4.12.10",
     "eslint": "^9.9.0",
